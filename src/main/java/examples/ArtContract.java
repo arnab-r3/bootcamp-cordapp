@@ -4,7 +4,9 @@ import net.corda.core.contracts.*;
 import net.corda.core.transactions.LedgerTransaction;
 
 import java.security.PublicKey;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 import static net.corda.core.contracts.ContractsDSL.requireSingleCommand;
 
